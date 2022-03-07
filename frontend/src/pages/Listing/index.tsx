@@ -1,7 +1,8 @@
+import Pagination from '../../components/Navbar/Pagination/index';
 
 function Listing(){
     return(
-        <h1>Página de listagem</h1>
+        <Pagination />
     );
 }
 export default Listing;
